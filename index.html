@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="form-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo" class="logo">
+            <h2>Thank you for signing up at Netflix. Tell us more about yourself!</h2>
+        </div>
+        
+        <form class="form">
+            <div class="input-group">
+                <input type="text" id="name" placeholder="Name" required>
+            </div>
+            
+            <div class="input-group">
+                <input type="number" id="age" placeholder="Age" required>
+            </div>
+            
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+            
+            <div class="input-group">
+                <select id="content-type" required>
+                    <option value="" disabled selected>Content type</option>
+                    <option value="series">Series</option>
+                    <option value="movies">Movies</option>
+                    <option value="both">Both</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Movie Type</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="movie-type" value="comedy"> Comedy</label>
+                    <label><input type="checkbox" name="movie-type" value="action"> Action</label>
+                    <label><input type="checkbox" name="movie-type" value="horror"> Horror</label>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Gender</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="other"> Other</label>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <textarea id="feedback" placeholder="Any comment"></textarea>
+            </div>
+            
+            <div class="input-group">
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
