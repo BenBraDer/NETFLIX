@@ -2,7 +2,7 @@
 <h1 align="center">NetFlix oppgave</h1>
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://benbrader.github.io/NETFLIX/">
       Lenken til prosjektet
     </a>
   </h3>
@@ -57,6 +57,3 @@ CSS
 ## Forventet resultat
 
 ![Image_1](./bootstrap.png)
-![Image_2](./es6.jpg)
-![Image_3](./images/test.jpg)
-![Image_4](./images/test.jpg)
