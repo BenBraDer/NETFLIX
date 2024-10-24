@@ -56,4 +56,4 @@ CSS
 
 ## Forventet resultat
 
-![Image_1](./bootstrap.png)
+![Image_1](./image.png)
